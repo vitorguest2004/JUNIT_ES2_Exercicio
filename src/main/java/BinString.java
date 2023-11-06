@@ -15,9 +15,11 @@ public class BinString{
         if (x == 0) {
             return "";
         }
-        if (x % 2 == 1) {
+        if (x % 2 == 1) 
+        {
             return binarise(x / 2) + "1";
-        } else {
+        } 
+        else {
             return binarise(x / 2) + "0";
         }
     }
